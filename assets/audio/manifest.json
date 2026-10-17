@@ -1,0 +1,58 @@
+{
+  "base": "assets/audio/",
+  "music": {
+    "title": "music/title.mp3",
+    "run": "music/run.mp3",
+    "rocket": "music/rocket.mp3"
+  },
+  "voice": {
+    "start": [
+      "voice/start_0.mp3",
+      "voice/start_1.mp3"
+    ],
+    "roll": [
+      "voice/roll_0.mp3",
+      "voice/roll_1.mp3"
+    ],
+    "closeCall": [
+      "voice/closeCall_0.mp3",
+      "voice/closeCall_1.mp3"
+    ],
+    "airLow": [
+      "voice/airLow_0.mp3"
+    ],
+    "rocket": [
+      "voice/rocket_0.mp3"
+    ],
+    "crash": [
+      "voice/crash_0.mp3",
+      "voice/crash_1.mp3"
+    ],
+    "combo": [
+      "voice/combo_0.mp3",
+      "voice/combo_1.mp3"
+    ],
+    "milestone": [
+      "voice/milestone_0.mp3"
+    ],
+    "sky": [
+      "voice/sky_0.mp3"
+    ]
+  },
+  "lines": {
+    "voice/start_0.mp3": "Le trafic est un probleme terrestre.",
+    "voice/start_1.mp3": "C'est parti ! En haut et par-dessus !",
+    "voice/roll_0.mp3": "Fais un tonneau !",
+    "voice/roll_1.mp3": "Tourne pour gagner !",
+    "voice/closeCall_0.mp3": "Ouah, tout juste !",
+    "voice/closeCall_1.mp3": "Trop pres !",
+    "voice/airLow_0.mp3": "Reservoir d'air bas !",
+    "voice/rocket_0.mp3": "Envoie tout !",
+    "voice/crash_0.mp3": "Ouf. L'assurance va adorer.",
+    "voice/crash_1.mp3": "C'etait une voiture.",
+    "voice/combo_0.mp3": "Combo !",
+    "voice/combo_1.mp3": "Tu es en feu !",
+    "voice/milestone_0.mp3": "Un kilometre de chaos pur !",
+    "voice/sky_0.mp3": "Roadsters entrants !"
+  }
+}
