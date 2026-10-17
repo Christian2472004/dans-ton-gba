@@ -2,3 +2,4 @@ node_modules/
 .agents/
 *.pyc
 __pycache__/
+.vercel
