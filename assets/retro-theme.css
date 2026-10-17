@@ -246,3 +246,98 @@
 .car-swatch:active {
   transform: scale(0.95);
 }
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 700px) {
+  .title-screen {
+    padding: calc(6vh + var(--safe-top)) 16px calc(5vh + var(--safe-bottom)) !important;
+  }
+
+  .wordmark {
+    gap: 2px !important;
+  }
+
+  .wm-main {
+    font-size: clamp(28px, 8vw, 52px) !important;
+    letter-spacing: 0.04em !important;
+  }
+
+  .wm-sub {
+    font-size: 10px !important;
+    letter-spacing: 0.22em !important;
+  }
+
+  .wm-sub:before, .wm-sub:after {
+    width: 18px !important;
+  }
+
+  .tagline {
+    font-size: 13px !important;
+    margin-top: 16px !important;
+  }
+
+  .start-cta {
+    font-size: 11px !important;
+    letter-spacing: 0.2em !important;
+  }
+
+  .car-select {
+    max-width: 100% !important;
+    margin-bottom: 12px !important;
+  }
+
+  .car-select-label {
+    font-size: 12px !important;
+  }
+
+  .car-swatches {
+    gap: 8px !important;
+  }
+
+  .car-swatch {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .controls-hint {
+    display: none !important;
+  }
+
+  .title-best {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .wm-main {
+    font-size: clamp(24px, 9vw, 40px) !important;
+  }
+
+  .car-swatch {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+  .car-swatches {
+    gap: 6px !important;
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+html, body {
+  overflow: hidden !important;
+  width: 100% !important;
+  height: 100% !important;
+  touch-action: none !important;
+}
+
+#game {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+/* Safe areas for notched devices */
+.title-screen {
+  padding-left: max(16px, env(safe-area-inset-left)) !important;
+  padding-right: max(16px, env(safe-area-inset-right)) !important;
+}
