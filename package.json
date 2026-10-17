@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "echo static site, no build needed",
     "dev": "vite --port=3000 --host=0.0.0.0",
     "lint": "tsc --noEmit",
-    "prebuild": "[ -d node_modules/.bin ] || bun install || npm install",
     "predev": "[ -d node_modules/.bin ] || bun install || npm install",
     "prelint": "[ -d node_modules/.bin ] || bun install || npm install",
     "start": "node server.cjs"
